@@ -31,8 +31,8 @@ CMake version: 3.22.1
 # How to build
 To make the project build, you need to:
 
-1) Download Halide from https://github.com/halide/Halide/releases (I used Halide-16.0.0-arm-64-osx) and extract the archive
-2) Add the following line to local.properties: `halide.dir=path_to_the_extracted_halide_archive`
+1) Download `Halide` from https://github.com/halide/Halide/releases (I used Halide-16.0.0-arm-64-osx) and extract the archive
+2) Add the following line to `local.properties`: `halide.dir=path_to_the_extracted_halide_archive`
 3) Build the project as you typically do.
 
 ### Build Halide generators tasks
