@@ -20,6 +20,14 @@ This works on macOS, but may require modifications on Windows and Linux. Pull re
 
 On macOS you should have the Clang compiler (you can check it in the terminal by executing `clang --version`).
 
+### Additional info
+```
+Android min SDK: 24
+Android compile and target SDK: 34
+NDK version: 25.2.9519653
+CMake version: 3.22.1
+```
+
 # How to build
 To make the project build, you need to:
 
