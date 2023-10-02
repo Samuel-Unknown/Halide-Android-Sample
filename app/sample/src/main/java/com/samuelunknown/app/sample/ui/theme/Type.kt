@@ -1,4 +1,4 @@
-package com.samuelunknown.halide_android_sample.ui.theme
+package com.samuelunknown.app.sample.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,5 +1,7 @@
 @file:Suppress("UnstableApiUsage")
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
     includeBuild("build-logic")
 
@@ -18,7 +20,10 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Halide Android Sample"
+rootProject.name = "Halide_Android_Sample"
 
-include(":app:sample")
+include(
+    ":app:sample",
+    ":app:features:processing"
+)
  
