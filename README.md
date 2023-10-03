@@ -5,7 +5,7 @@ The goal of this repository is to demonstrate how to use `Halide` generators in 
 `Halide` is a programming language designed to make it easier to write and maintain high-performance image processing code.
 
 You can learn more about `Halide` from these sources:
- - https://halide-lang.org/index.html#gettingstarted
+ - https://halide-lang.org
  - https://blog.minhazav.dev/write-fast-and-maintainable-code-with-halide
 
 In this sample app, I use [`invert_generator.cpp`](app/features/processing/src/main/cpp/halide/invert_generator.cpp) 
@@ -22,6 +22,7 @@ On macOS you should have the Clang compiler (you can check it in the terminal by
 
 ### Additional info
 ```
+Supported ABIs: armeabi-v7a, arm64-v8a, x86, x86_64
 Android min SDK: 24
 Android compile and target SDK: 34
 NDK version: 25.2.9519653
